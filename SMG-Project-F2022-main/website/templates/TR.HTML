@@ -1,0 +1,74 @@
+{% extends "base.HTML" %}
+{% block title %}Transcript Reader{% endblock %}
+{% block pageContent %}
+<h1>Classes Viewer</h1>
+<!--
+{% if filename %}
+<div>
+  <file src = "{{url_for(filename = '/pdffiles/'+filename)}}">
+</div>
+{% endif %}-->
+<!--
+<form action="/action_page.php/">
+    <input type="file" id="myFile" name="filename">
+    <input type="submit">
+</form>
+
+<form action="/SMG-Project-F2022-main/website/templates/action_page2.php" method="get">
+-->
+  
+
+<div style="float:left;">
+  <label for="class">Class:</label><br>
+</div>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+<div style="float:left;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <label for="class">Class number:</label><br>
+</div>
+  <label for="class">Discription:</label><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<div style="float:left;">
+  <input type="text" id="class" name="class"><br>
+</div>
+<div style="float:left;">
+  <input type = "text" id = "class number" name = "classnumber">
+</div> 
+<input type="text" id="Discription" name="discription"><br><br>
+<button type="submit" id = myButton>Submit</button>
+  
+</form>
+
+{% endblock %}
